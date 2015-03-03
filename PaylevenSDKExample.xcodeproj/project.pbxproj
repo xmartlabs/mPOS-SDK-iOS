@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA38D9421A1F90AC00FCF445 /* SignatureConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA38D9411A1F90AC00FCF445 /* SignatureConfirmationViewController.m */; };
+		AA38D9491A1F950400FCF445 /* signature.png in Resources */ = {isa = PBXBuildFile; fileRef = AA38D9481A1F950400FCF445 /* signature.png */; };
+		AA5612F419ED338200F6C5E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5612F319ED338200F6C5E0 /* main.m */; };
+		AA5612F719ED338200F6C5E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5612F619ED338200F6C5E0 /* AppDelegate.m */; };
+		AA5612FA19ED338200F6C5E0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5612F919ED338200F6C5E0 /* RootViewController.m */; };
+		AA5612FD19ED338200F6C5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5612FB19ED338200F6C5E0 /* Main.storyboard */; };
+		AA5612FF19ED338200F6C5E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5612FE19ED338200F6C5E0 /* Images.xcassets */; };
+		AA56130219ED338200F6C5E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA56130019ED338200F6C5E0 /* LaunchScreen.xib */; };
+		AA58048A1A41AD1900A8D051 /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5804891A41AD1900A8D051 /* CurrencyViewController.m */; };
+		AA6449C719ED415600FAD24B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6449C619ED415600FAD24B /* LoginViewController.m */; };
+		AA6449D219ED685D00FAD24B /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6449D119ED685D00FAD24B /* ExternalAccessory.framework */; };
+		AA6449D819ED689C00FAD24B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6449D719ED689C00FAD24B /* SystemConfiguration.framework */; };
+		AA6449D919ED68A500FAD24B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6449D519ED687900FAD24B /* CoreLocation.framework */; };
+		AA6449DB19ED68AE00FAD24B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6449DA19ED68AE00FAD24B /* CoreData.framework */; };
+		AA6449DC19ED68B500FAD24B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6449D319ED686F00FAD24B /* libsqlite3.0.dylib */; };
+		AA6449DF19EE91F500FAD24B /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6449DE19EE91F500FAD24B /* DeviceListViewController.m */; };
+		AAB601D91A092AB600AF070D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB601D41A092A8700AF070D /* CoreText.framework */; };
+		AAB601DA1A092ABD00AF070D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB601D61A092A9200AF070D /* CoreGraphics.framework */; };
+		AAB601DC1A092AD300AF070D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB601DB1A092AD300AF070D /* Foundation.framework */; };
+		AAB601E61A092C0900AF070D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB601E51A092C0900AF070D /* UIKit.framework */; };
+		AAB83D501A6D49C000951A81 /* AdyenToolkit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAB83D4D1A6D49C000951A81 /* AdyenToolkit.bundle */; };
+		AAB83D511A6D49C000951A81 /* AdyenToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB83D4E1A6D49C000951A81 /* AdyenToolkit.framework */; };
+		AAB83D521A6D49C000951A81 /* PaylevenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB83D4F1A6D49C000951A81 /* PaylevenSDK.framework */; };
+		AAE125861A2F13F800F6B88A /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAE125851A2F13F800F6B88A /* Readme.txt */; };
+		AAE1261F1A387BF500F6B88A /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE1261E1A387BF500F6B88A /* ReceiptViewController.m */; };
+		AAE9A7A019F949B600F23CD1 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9A79F19F949B600F23CD1 /* PaymentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA38D9401A1F90AC00FCF445 /* SignatureConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureConfirmationViewController.h; sourceTree = "<group>"; };
+		AA38D9411A1F90AC00FCF445 /* SignatureConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureConfirmationViewController.m; sourceTree = "<group>"; };
+		AA38D9481A1F950400FCF445 /* signature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signature.png; sourceTree = "<group>"; };
+		AA5612EE19ED338200F6C5E0 /* PaylevenSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaylevenSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5612F219ED338200F6C5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5612F319ED338200F6C5E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5612F519ED338200F6C5E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5612F619ED338200F6C5E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5612F819ED338200F6C5E0 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AA5612F919ED338200F6C5E0 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AA5612FC19ED338200F6C5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA5612FE19ED338200F6C5E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA56130119ED338200F6C5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA5804881A41AD1900A8D051 /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
+		AA5804891A41AD1900A8D051 /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
+		AA6449C519ED415600FAD24B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AA6449C619ED415600FAD24B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AA6449D119ED685D00FAD24B /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		AA6449D319ED686F00FAD24B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		AA6449D519ED687900FAD24B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AA6449D719ED689C00FAD24B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AA6449DA19ED68AE00FAD24B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA6449DD19EE91F500FAD24B /* DeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListViewController.h; sourceTree = "<group>"; };
+		AA6449DE19EE91F500FAD24B /* DeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListViewController.m; sourceTree = "<group>"; };
+		AAB601D41A092A8700AF070D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AAB601D61A092A9200AF070D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAB601DB1A092AD300AF070D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAB601E51A092C0900AF070D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAB83D4D1A6D49C000951A81 /* AdyenToolkit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdyenToolkit.bundle; path = Framework/AdyenToolkit.bundle; sourceTree = "<group>"; };
+		AAB83D4E1A6D49C000951A81 /* AdyenToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdyenToolkit.framework; path = Framework/AdyenToolkit.framework; sourceTree = "<group>"; };
+		AAB83D4F1A6D49C000951A81 /* PaylevenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaylevenSDK.framework; path = Framework/PaylevenSDK.framework; sourceTree = "<group>"; };
+		AAE125851A2F13F800F6B88A /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		AAE1261D1A387BF500F6B88A /* ReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptViewController.h; sourceTree = "<group>"; };
+		AAE1261E1A387BF500F6B88A /* ReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptViewController.m; sourceTree = "<group>"; };
+		AAE9A79E19F949B600F23CD1 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		AAE9A79F19F949B600F23CD1 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5612EB19ED338200F6C5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB83D521A6D49C000951A81 /* PaylevenSDK.framework in Frameworks */,
+				AA6449DC19ED68B500FAD24B /* libsqlite3.0.dylib in Frameworks */,
+				AA6449DB19ED68AE00FAD24B /* CoreData.framework in Frameworks */,
+				AA6449D919ED68A500FAD24B /* CoreLocation.framework in Frameworks */,
+				AA6449D219ED685D00FAD24B /* ExternalAccessory.framework in Frameworks */,
+				AAB601D91A092AB600AF070D /* CoreText.framework in Frameworks */,
+				AAB83D511A6D49C000951A81 /* AdyenToolkit.framework in Frameworks */,
+				AAB601DA1A092ABD00AF070D /* CoreGraphics.framework in Frameworks */,
+				AAB601DC1A092AD300AF070D /* Foundation.framework in Frameworks */,
+				AA6449D819ED689C00FAD24B /* SystemConfiguration.framework in Frameworks */,
+				AAB601E61A092C0900AF070D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5612E519ED338200F6C5E0 = {
+			isa = PBXGroup;
+			children = (
+				AA5612F019ED338200F6C5E0 /* PaylevenSDKExample */,
+				AA6449CC19ED681300FAD24B /* Frameworks */,
+				AA5612EF19ED338200F6C5E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5612EF19ED338200F6C5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5612EE19ED338200F6C5E0 /* PaylevenSDKExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5612F019ED338200F6C5E0 /* PaylevenSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				AAE125851A2F13F800F6B88A /* Readme.txt */,
+				AA5612F519ED338200F6C5E0 /* AppDelegate.h */,
+				AA5612F619ED338200F6C5E0 /* AppDelegate.m */,
+				AA5612F819ED338200F6C5E0 /* RootViewController.h */,
+				AA5612F919ED338200F6C5E0 /* RootViewController.m */,
+				AA6449C519ED415600FAD24B /* LoginViewController.h */,
+				AA6449C619ED415600FAD24B /* LoginViewController.m */,
+				AA6449DD19EE91F500FAD24B /* DeviceListViewController.h */,
+				AA6449DE19EE91F500FAD24B /* DeviceListViewController.m */,
+				AAE9A79E19F949B600F23CD1 /* PaymentViewController.h */,
+				AAE9A79F19F949B600F23CD1 /* PaymentViewController.m */,
+				AA5804881A41AD1900A8D051 /* CurrencyViewController.h */,
+				AA5804891A41AD1900A8D051 /* CurrencyViewController.m */,
+				AA38D9401A1F90AC00FCF445 /* SignatureConfirmationViewController.h */,
+				AA38D9411A1F90AC00FCF445 /* SignatureConfirmationViewController.m */,
+				AAE1261D1A387BF500F6B88A /* ReceiptViewController.h */,
+				AAE1261E1A387BF500F6B88A /* ReceiptViewController.m */,
+				AA5612FB19ED338200F6C5E0 /* Main.storyboard */,
+				AA5612FE19ED338200F6C5E0 /* Images.xcassets */,
+				AA56130019ED338200F6C5E0 /* LaunchScreen.xib */,
+				AA5612F119ED338200F6C5E0 /* Supporting Files */,
+			);
+			path = PaylevenSDKExample;
+			sourceTree = "<group>";
+		};
+		AA5612F119ED338200F6C5E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5612F219ED338200F6C5E0 /* Info.plist */,
+				AA5612F319ED338200F6C5E0 /* main.m */,
+				AA38D9481A1F950400FCF445 /* signature.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6449CC19ED681300FAD24B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB601E51A092C0900AF070D /* UIKit.framework */,
+				AAB601DB1A092AD300AF070D /* Foundation.framework */,
+				AAB601D61A092A9200AF070D /* CoreGraphics.framework */,
+				AAB601D41A092A8700AF070D /* CoreText.framework */,
+				AA6449DA19ED68AE00FAD24B /* CoreData.framework */,
+				AA6449D719ED689C00FAD24B /* SystemConfiguration.framework */,
+				AA6449D519ED687900FAD24B /* CoreLocation.framework */,
+				AA6449D319ED686F00FAD24B /* libsqlite3.0.dylib */,
+				AA6449D119ED685D00FAD24B /* ExternalAccessory.framework */,
+				AAB83D4D1A6D49C000951A81 /* AdyenToolkit.bundle */,
+				AAB83D4E1A6D49C000951A81 /* AdyenToolkit.framework */,
+				AAB83D4F1A6D49C000951A81 /* PaylevenSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5612ED19ED338200F6C5E0 /* PaylevenSDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA56131119ED338200F6C5E0 /* Build configuration list for PBXNativeTarget "PaylevenSDKExample" */;
+			buildPhases = (
+				AA5612EA19ED338200F6C5E0 /* Sources */,
+				AA5612EB19ED338200F6C5E0 /* Frameworks */,
+				AA5612EC19ED338200F6C5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaylevenSDKExample;
+			productName = PaylevenSDKExample;
+			productReference = AA5612EE19ED338200F6C5E0 /* PaylevenSDKExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5612E619ED338200F6C5E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "payleven Holding GmbH";
+				TargetAttributes = {
+					AA5612ED19ED338200F6C5E0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = JPKY74ZN8Q;
+					};
+				};
+			};
+			buildConfigurationList = AA5612E919ED338200F6C5E0 /* Build configuration list for PBXProject "PaylevenSDKExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5612E519ED338200F6C5E0;
+			productRefGroup = AA5612EF19ED338200F6C5E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5612ED19ED338200F6C5E0 /* PaylevenSDKExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5612EC19ED338200F6C5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA38D9491A1F950400FCF445 /* signature.png in Resources */,
+				AA5612FD19ED338200F6C5E0 /* Main.storyboard in Resources */,
+				AAB83D501A6D49C000951A81 /* AdyenToolkit.bundle in Resources */,
+				AA56130219ED338200F6C5E0 /* LaunchScreen.xib in Resources */,
+				AA5612FF19ED338200F6C5E0 /* Images.xcassets in Resources */,
+				AAE125861A2F13F800F6B88A /* Readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5612EA19ED338200F6C5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6449C719ED415600FAD24B /* LoginViewController.m in Sources */,
+				AA58048A1A41AD1900A8D051 /* CurrencyViewController.m in Sources */,
+				AA5612FA19ED338200F6C5E0 /* RootViewController.m in Sources */,
+				AA38D9421A1F90AC00FCF445 /* SignatureConfirmationViewController.m in Sources */,
+				AA5612F719ED338200F6C5E0 /* AppDelegate.m in Sources */,
+				AAE9A7A019F949B600F23CD1 /* PaymentViewController.m in Sources */,
+				AAE1261F1A387BF500F6B88A /* ReceiptViewController.m in Sources */,
+				AA5612F419ED338200F6C5E0 /* main.m in Sources */,
+				AA6449DF19EE91F500FAD24B /* DeviceListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA5612FB19ED338200F6C5E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5612FC19ED338200F6C5E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA56130019ED338200F6C5E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA56130119ED338200F6C5E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA56130F19ED338200F6C5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PaylevenSDK\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA56131019ED338200F6C5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PaylevenSDK\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA56131219ED338200F6C5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PaylevenSDK\"",
+				);
+				INFOPLIST_FILE = PaylevenSDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AA56131319ED338200F6C5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PaylevenSDK\"",
+				);
+				INFOPLIST_FILE = PaylevenSDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5612E919ED338200F6C5E0 /* Build configuration list for PBXProject "PaylevenSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA56130F19ED338200F6C5E0 /* Debug */,
+				AA56131019ED338200F6C5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA56131119ED338200F6C5E0 /* Build configuration list for PBXNativeTarget "PaylevenSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA56131219ED338200F6C5E0 /* Debug */,
+				AA56131319ED338200F6C5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5612E619ED338200F6C5E0 /* Project object */;
+}
