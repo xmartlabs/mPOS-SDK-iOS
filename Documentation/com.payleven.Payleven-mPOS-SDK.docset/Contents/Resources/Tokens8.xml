@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PLVPaymentTaskDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PLVPaymentTaskDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate of a PLVPaymentTask must adopt PLVPaymentTaskDelegate protocol.</Abstract>
+			<DeclaredIn>PLVPaymentTask.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PLVPaymentTaskDelegate/paymentTask:needsSignatureWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Called when a signature needs to be provided.</Abstract>
+			<DeclaredIn>PLVPaymentTask.h</DeclaredIn>
+			
+			<Declaration>- (void)paymentTask:(PLVPaymentTask *)paymentTask needsSignatureWithCompletionHandler:(void ( ^ ) ( BOOL confirmed , CGImageRef image ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>paymentTask</Name>
+					<Abstract type="html">Payment task that needs a signature.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">A handler that your delegate method must call. The block takes two parameters:
+confirmed A Boolean value indicating if the signature has been confirmed or denied by an attendant.
+image     Signature image. Must not be NULL.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paymentTask:needsSignatureWithCompletionHandler:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PLVPaymentTaskDelegate/paymentTaskDidFinish:</TokenIdentifier>
+			<Abstract type="html">Called when payment task finishes. Check the result property for the result.</Abstract>
+			<DeclaredIn>PLVPaymentTask.h</DeclaredIn>
+			
+			<Declaration>- (void)paymentTaskDidFinish:(PLVPaymentTask *)paymentTask</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>paymentTask</Name>
+					<Abstract type="html">The finished payment task.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paymentTaskDidFinish:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PLVPaymentTaskDelegate/paymentTask:didFailWithError:</TokenIdentifier>
+			<Abstract type="html">Called when payment task fails.</Abstract>
+			<DeclaredIn>PLVPaymentTask.h</DeclaredIn>
+			
+			<Declaration>- (void)paymentTask:(PLVPaymentTask *)paymentTask didFailWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>paymentTask</Name>
+					<Abstract type="html">The failed payment task.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Error object containing information about the failure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paymentTask:didFailWithError:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

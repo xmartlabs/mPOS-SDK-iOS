@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PLVPaymentResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PLVPaymentResult</TokenIdentifier>
+			<Abstract type="html">PLVPaymentResult class represents payment results.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">Payment identifier.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/identifier</TokenIdentifier>
+			<Abstract type="html">Payment identifier.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/identifier</TokenIdentifier>
+			<Abstract type="html">Payment identifier.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setState:</TokenIdentifier>
+			<Abstract type="html">Payment state.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPaymentResultState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/state</TokenIdentifier>
+			<Abstract type="html">Payment state.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPaymentResultState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/state</TokenIdentifier>
+			<Abstract type="html">Payment state.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPaymentResultState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setAmount:</TokenIdentifier>
+			<Abstract type="html">Payment amount.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDecimalNumber *amount</Declaration>
+			
+			
+			<Anchor>//api/name/amount</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/amount</TokenIdentifier>
+			<Abstract type="html">Payment amount.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDecimalNumber *amount</Declaration>
+			
+			
+			<Anchor>//api/name/amount</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/amount</TokenIdentifier>
+			<Abstract type="html">Payment amount.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSDecimalNumber *amount</Declaration>
+			
+			
+			<Anchor>//api/name/amount</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setCurrency:</TokenIdentifier>
+			<Abstract type="html">Payment currency.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *currency</Declaration>
+			
+			
+			<Anchor>//api/name/currency</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/currency</TokenIdentifier>
+			<Abstract type="html">Payment currency.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *currency</Declaration>
+			
+			
+			<Anchor>//api/name/currency</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/currency</TokenIdentifier>
+			<Abstract type="html">Payment currency.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *currency</Declaration>
+			
+			
+			<Anchor>//api/name/currency</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setDate:</TokenIdentifier>
+			<Abstract type="html">Payment date.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/date</TokenIdentifier>
+			<Abstract type="html">Payment date.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/date</TokenIdentifier>
+			<Abstract type="html">Payment date.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setSignatureImageURL:</TokenIdentifier>
+			<Abstract type="html">Signature image URL.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSURL *signatureImageURL</Declaration>
+			
+			
+			<Anchor>//api/name/signatureImageURL</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/signatureImageURL</TokenIdentifier>
+			<Abstract type="html">Signature image URL.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSURL *signatureImageURL</Declaration>
+			
+			
+			<Anchor>//api/name/signatureImageURL</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/signatureImageURL</TokenIdentifier>
+			<Abstract type="html">Signature image URL.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSURL *signatureImageURL</Declaration>
+			
+			
+			<Anchor>//api/name/signatureImageURL</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setReceiptGenerator:</TokenIdentifier>
+			<Abstract type="html">Receipt generator.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) PLVReceiptGenerator *receiptGenerator</Declaration>
+			
+			
+			<Anchor>//api/name/receiptGenerator</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/receiptGenerator</TokenIdentifier>
+			<Abstract type="html">Receipt generator.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) PLVReceiptGenerator *receiptGenerator</Declaration>
+			
+			
+			<Anchor>//api/name/receiptGenerator</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/receiptGenerator</TokenIdentifier>
+			<Abstract type="html">Receipt generator.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) PLVReceiptGenerator *receiptGenerator</Declaration>
+			
+			
+			<Anchor>//api/name/receiptGenerator</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/setAdditionalData:</TokenIdentifier>
+			<Abstract type="html">Additional payment result data.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) PLVPaymentResultAdditionalData *additionalData</Declaration>
+			
+			
+			<Anchor>//api/name/additionalData</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResult/additionalData</TokenIdentifier>
+			<Abstract type="html">Additional payment result data.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) PLVPaymentResultAdditionalData *additionalData</Declaration>
+			
+			
+			<Anchor>//api/name/additionalData</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResult/additionalData</TokenIdentifier>
+			<Abstract type="html">Additional payment result data.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) PLVPaymentResultAdditionalData *additionalData</Declaration>
+			
+			
+			<Anchor>//api/name/additionalData</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

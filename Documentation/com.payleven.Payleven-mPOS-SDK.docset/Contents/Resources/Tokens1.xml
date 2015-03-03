@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PLVDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PLVDevice</TokenIdentifier>
+			<Abstract type="html">PLVDevice class represents a payment device.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVDevice/setName:</TokenIdentifier>
+			<Abstract type="html">The device name.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVDevice/name</TokenIdentifier>
+			<Abstract type="html">The device name.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVDevice/name</TokenIdentifier>
+			<Abstract type="html">The device name.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVDevice/setReady:</TokenIdentifier>
+			<Abstract type="html">A Boolean value indicating if the device is ready for payments.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isReady, assign) BOOL ready</Declaration>
+			
+			
+			<Anchor>//api/name/ready</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVDevice/isReady</TokenIdentifier>
+			<Abstract type="html">A Boolean value indicating if the device is ready for payments.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isReady, assign) BOOL ready</Declaration>
+			
+			
+			<Anchor>//api/name/ready</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVDevice/ready</TokenIdentifier>
+			<Abstract type="html">A Boolean value indicating if the device is ready for payments.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, getter=isReady, assign) BOOL ready</Declaration>
+			
+			
+			<Anchor>//api/name/ready</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVDevice/prepareWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Prepares the device for payments.</Abstract>
+			<DeclaredIn>PLVDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)prepareWithCompletionHandler:(void ( ^ ) ( NSError *error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">A block that is called when the preparation attempt finishes. Check the receiver&apos;s ready
+property to get the current state. The block takes a single parameter error containing error information in case
+of preparation error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/prepareWithCompletionHandler:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

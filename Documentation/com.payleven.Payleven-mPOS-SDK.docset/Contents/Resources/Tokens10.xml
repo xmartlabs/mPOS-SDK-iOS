@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/PLVPaylevenLoginState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/PLVPaylevenLoginState</TokenIdentifier>
+			<Abstract type="html">Login state constants.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPaylevenLoginStateLoggedOut</TokenIdentifier>
+            <Abstract type="html">Logged out.</Abstract>
+            <Declaration>PLVPaylevenLoginStateLoggedOut</Declaration>
+            
+            <DeclaredIn>PLVPayleven.h</DeclaredIn>
+            
+            <NodeRef refid="10"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPaylevenLoginStateLoggingIn</TokenIdentifier>
+            <Abstract type="html">Logging in.</Abstract>
+            <Declaration>PLVPaylevenLoginStateLoggingIn</Declaration>
+            
+            <DeclaredIn>PLVPayleven.h</DeclaredIn>
+            
+            <NodeRef refid="10"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPaylevenLoginStateLoggedIn</TokenIdentifier>
+            <Abstract type="html">Logged in.</Abstract>
+            <Declaration>PLVPaylevenLoginStateLoggedIn</Declaration>
+            
+            <DeclaredIn>PLVPayleven.h</DeclaredIn>
+            
+            <NodeRef refid="10"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPaylevenLoginStateLoggingOut</TokenIdentifier>
+            <Abstract type="html">Logging out.</Abstract>
+            <Declaration>PLVPaylevenLoginStateLoggingOut</Declaration>
+            
+            <DeclaredIn>PLVPayleven.h</DeclaredIn>
+            
+            <NodeRef refid="10"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

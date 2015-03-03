@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PLVReceiptGenerator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PLVReceiptGenerator</TokenIdentifier>
+			<Abstract type="html">PLVReceiptGenerator creates receipt images.</Abstract>
+			<DeclaredIn>PLVReceiptGenerator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVReceiptGenerator/generateReceiptWithWidth:fontSize:lineSpacing:padding:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Generates the receipt image.</Abstract>
+			<DeclaredIn>PLVReceiptGenerator.h</DeclaredIn>
+			
+			<Declaration>- (void)generateReceiptWithWidth:(CGFloat)width fontSize:(CGFloat)fontSize lineSpacing:(CGFloat)lineSpacing padding:(CGFloat)padding completionHandler:(void ( ^ ) ( CGImageRef receipt ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>width</Name>
+					<Abstract type="html">Receipt image width.</Abstract>
+				</Parameter><Parameter>
+					<Name>fontSize</Name>
+					<Abstract type="html">Receipt font size.</Abstract>
+				</Parameter><Parameter>
+					<Name>lineSpacing</Name>
+					<Abstract type="html">Receipt text line spacing.</Abstract>
+				</Parameter><Parameter>
+					<Name>padding</Name>
+					<Abstract type="html">Receipt contents padding.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">Block that is called when the receipt generation finishes. The block takes a single
+parameter receipt.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/generateReceiptWithWidth:fontSize:lineSpacing:padding:completionHandler:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

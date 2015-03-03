@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PLVPayleven.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PLVPayleven</TokenIdentifier>
+			<Abstract type="html">PLVPayleven class is the central point of Payleven SDK.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PLVPayleven/SDKVersion</TokenIdentifier>
+			<Abstract type="html">SDKVersion</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)SDKVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">String with the version of the sdk (i.e. &apos;1.0&apos;)</Abstract></ReturnValue>
+			<Anchor>//api/name/SDKVersion</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPayleven/setLoginState:</TokenIdentifier>
+			<Abstract type="html">The receiver&apos;s login state. KVO-observable.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPaylevenLoginState loginState</Declaration>
+			
+			
+			<Anchor>//api/name/loginState</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPayleven/loginState</TokenIdentifier>
+			<Abstract type="html">The receiver&apos;s login state. KVO-observable.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPaylevenLoginState loginState</Declaration>
+			
+			
+			<Anchor>//api/name/loginState</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPayleven/loginState</TokenIdentifier>
+			<Abstract type="html">The receiver&apos;s login state. KVO-observable.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPaylevenLoginState loginState</Declaration>
+			
+			
+			<Anchor>//api/name/loginState</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPayleven/setDevices:</TokenIdentifier>
+			<Abstract type="html">The array of currently available devices represented by PLVDevice objects. KVO-observable.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPayleven/devices</TokenIdentifier>
+			<Abstract type="html">The array of currently available devices represented by PLVDevice objects. KVO-observable.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPayleven/devices</TokenIdentifier>
+			<Abstract type="html">The array of currently available devices represented by PLVDevice objects. KVO-observable.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPayleven/loginWithUsername:password:APIKey:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Performs login attempt.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>- (void)loginWithUsername:(NSString *)username password:(NSString *)password APIKey:(NSString *)APIKey completionHandler:(void ( ^ ) ( NSError *error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>username</Name>
+					<Abstract type="html">Payleven account username.</Abstract>
+				</Parameter><Parameter>
+					<Name>password</Name>
+					<Abstract type="html">Payleven account password.</Abstract>
+				</Parameter><Parameter>
+					<Name>APIKey</Name>
+					<Abstract type="html">API key.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">A block called when the login finishes or an error occurs. The block takes a single
+parameter error: An NSError indicating the error during the login. nil indicates the successful login.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loginWithUsername:password:APIKey:completionHandler:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPayleven/logoutWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Performs logout attempt.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>- (void)logoutWithCompletionHandler:(void ( ^ ) ( NSError *error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">Block to be called when the logout finishes or an error occurs. The block takes a single
+parameter error: An NSError indicating the error during the logout. nil indicates the successful logout.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logoutWithCompletionHandler:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPayleven/paymentTaskWithRequest:device:delegate:</TokenIdentifier>
+			<Abstract type="html">Creates a payment task.</Abstract>
+			<DeclaredIn>PLVPayleven.h</DeclaredIn>
+			
+			<Declaration>- (PLVPaymentTask *)paymentTaskWithRequest:(PLVPaymentRequest *)request device:(PLVDevice *)device delegate:(id&lt;PLVPaymentTaskDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">Payment request.</Abstract>
+				</Parameter><Parameter>
+					<Name>device</Name>
+					<Abstract type="html">Device for a payment.</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">Payment task delegate.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A newly created payment task or nil if the receiver is not logged in or the device is not ready. Run
+[PLVPaymentTask start] to start the payment process.</Abstract></ReturnValue>
+			<Anchor>//api/name/paymentTaskWithRequest:device:delegate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

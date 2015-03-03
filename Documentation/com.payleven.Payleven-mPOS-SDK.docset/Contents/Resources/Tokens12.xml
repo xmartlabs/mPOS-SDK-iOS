@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/PLVPointOfSaleEntryMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/PLVPointOfSaleEntryMode</TokenIdentifier>
+			<Abstract type="html">POS entry mode constants.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPointOfSaleEntryModeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown mode.</Abstract>
+            <Declaration>PLVPointOfSaleEntryModeUnknown</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="12"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPointOfSaleEntryModeIntegratedCircuitCard</TokenIdentifier>
+            <Abstract type="html">ICC (chip) mode.</Abstract>
+            <Declaration>PLVPointOfSaleEntryModeIntegratedCircuitCard</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="12"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPointOfSaleEntryModeMagneticStripeReader</TokenIdentifier>
+            <Abstract type="html">Swipe mode.</Abstract>
+            <Declaration>PLVPointOfSaleEntryModeMagneticStripeReader</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="12"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPointOfSaleEntryModePANKeyEntry</TokenIdentifier>
+            <Abstract type="html">Manual mode.</Abstract>
+            <Declaration>PLVPointOfSaleEntryModePANKeyEntry</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="12"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

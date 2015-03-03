@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/PLVCardholderVerificationMethod.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/PLVCardholderVerificationMethod</TokenIdentifier>
+			<Abstract type="html">Cardholder verification method constants.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVCardholderVerificationMethodUnknown</TokenIdentifier>
+            <Abstract type="html">Could not detect CVM or CVM is unknown.</Abstract>
+            <Declaration>PLVCardholderVerificationMethodUnknown</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="9"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVCardholderVerificationMethodNone</TokenIdentifier>
+            <Abstract type="html">No CVM required.</Abstract>
+            <Declaration>PLVCardholderVerificationMethodNone</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="9"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVCardholderVerificationMethodPIN</TokenIdentifier>
+            <Abstract type="html">PIN verification.</Abstract>
+            <Declaration>PLVCardholderVerificationMethodPIN</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="9"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVCardholderVerificationMethodSignature</TokenIdentifier>
+            <Abstract type="html">Signature verification.</Abstract>
+            <Declaration>PLVCardholderVerificationMethodSignature</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="9"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVCardholderVerificationMethodPINSignature</TokenIdentifier>
+            <Abstract type="html">PIN and signature verification .</Abstract>
+            <Declaration>PLVCardholderVerificationMethodPINSignature</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="9"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

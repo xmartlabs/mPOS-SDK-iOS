@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/PLVPaymentResultState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/PLVPaymentResultState</TokenIdentifier>
+			<Abstract type="html">Payment result state.</Abstract>
+			<DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPaymentResultStateApproved</TokenIdentifier>
+            <Abstract type="html">Approved.</Abstract>
+            <Declaration>PLVPaymentResultStateApproved</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPaymentResultStateDeclined</TokenIdentifier>
+            <Abstract type="html">Declined.</Abstract>
+            <Declaration>PLVPaymentResultStateDeclined</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PLVPaymentResultStateCancelled</TokenIdentifier>
+            <Abstract type="html">Cancelled.</Abstract>
+            <Declaration>PLVPaymentResultStateCancelled</Declaration>
+            
+            <DeclaredIn>PLVPaymentResult.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

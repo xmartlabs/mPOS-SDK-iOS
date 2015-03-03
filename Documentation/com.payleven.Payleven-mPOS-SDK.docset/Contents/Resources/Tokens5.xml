@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PLVPaymentResultAdditionalData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PLVPaymentResultAdditionalData</TokenIdentifier>
+			<Abstract type="html">Payment result additional data.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setPrimaryAccountNumber:</TokenIdentifier>
+			<Abstract type="html">Primary account number (PAN), also known as card number. Truncated for security reasons.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *primaryAccountNumber</Declaration>
+			
+			
+			<Anchor>//api/name/primaryAccountNumber</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/primaryAccountNumber</TokenIdentifier>
+			<Abstract type="html">Primary account number (PAN), also known as card number. Truncated for security reasons.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *primaryAccountNumber</Declaration>
+			
+			
+			<Anchor>//api/name/primaryAccountNumber</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/primaryAccountNumber</TokenIdentifier>
+			<Abstract type="html">Primary account number (PAN), also known as card number. Truncated for security reasons.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *primaryAccountNumber</Declaration>
+			
+			
+			<Anchor>//api/name/primaryAccountNumber</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setMaximumPrimaryAccountNumberLength:</TokenIdentifier>
+			<Abstract type="html">Maximum length of the untruncated primary account number for the card brand specified in cardBrandIdentifier.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSUInteger maximumPrimaryAccountNumberLength</Declaration>
+			
+			
+			<Anchor>//api/name/maximumPrimaryAccountNumberLength</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/maximumPrimaryAccountNumberLength</TokenIdentifier>
+			<Abstract type="html">Maximum length of the untruncated primary account number for the card brand specified in cardBrandIdentifier.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSUInteger maximumPrimaryAccountNumberLength</Declaration>
+			
+			
+			<Anchor>//api/name/maximumPrimaryAccountNumberLength</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/maximumPrimaryAccountNumberLength</TokenIdentifier>
+			<Abstract type="html">Maximum length of the untruncated primary account number for the card brand specified in cardBrandIdentifier.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSUInteger maximumPrimaryAccountNumberLength</Declaration>
+			
+			
+			<Anchor>//api/name/maximumPrimaryAccountNumberLength</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setPrimaryAccountNumberSequenceNumber:</TokenIdentifier>
+			<Abstract type="html">Primary account number sequence number. Identifies and differentiates cards with the same PAN.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *primaryAccountNumberSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/primaryAccountNumberSequenceNumber</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/primaryAccountNumberSequenceNumber</TokenIdentifier>
+			<Abstract type="html">Primary account number sequence number. Identifies and differentiates cards with the same PAN.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *primaryAccountNumberSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/primaryAccountNumberSequenceNumber</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/primaryAccountNumberSequenceNumber</TokenIdentifier>
+			<Abstract type="html">Primary account number sequence number. Identifies and differentiates cards with the same PAN.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *primaryAccountNumberSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/primaryAccountNumberSequenceNumber</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setPointOfSaleEntryMode:</TokenIdentifier>
+			<Abstract type="html">POS entry mode.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPointOfSaleEntryMode pointOfSaleEntryMode</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSaleEntryMode</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/pointOfSaleEntryMode</TokenIdentifier>
+			<Abstract type="html">POS entry mode.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPointOfSaleEntryMode pointOfSaleEntryMode</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSaleEntryMode</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/pointOfSaleEntryMode</TokenIdentifier>
+			<Abstract type="html">POS entry mode.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVPointOfSaleEntryMode pointOfSaleEntryMode</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSaleEntryMode</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setCardholderVerificationMethod:</TokenIdentifier>
+			<Abstract type="html">Cardholder verification method.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVCardholderVerificationMethod cardholderVerificationMethod</Declaration>
+			
+			
+			<Anchor>//api/name/cardholderVerificationMethod</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/cardholderVerificationMethod</TokenIdentifier>
+			<Abstract type="html">Cardholder verification method.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVCardholderVerificationMethod cardholderVerificationMethod</Declaration>
+			
+			
+			<Anchor>//api/name/cardholderVerificationMethod</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/cardholderVerificationMethod</TokenIdentifier>
+			<Abstract type="html">Cardholder verification method.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, assign) PLVCardholderVerificationMethod cardholderVerificationMethod</Declaration>
+			
+			
+			<Anchor>//api/name/cardholderVerificationMethod</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setApplicationIdentifier:</TokenIdentifier>
+			<Abstract type="html">Card application identifier (AID).</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *applicationIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/applicationIdentifier</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/applicationIdentifier</TokenIdentifier>
+			<Abstract type="html">Card application identifier (AID).</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *applicationIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/applicationIdentifier</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/applicationIdentifier</TokenIdentifier>
+			<Abstract type="html">Card application identifier (AID).</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *applicationIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/applicationIdentifier</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setAuthorizationCode:</TokenIdentifier>
+			<Abstract type="html">Card authorization code.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *authorizationCode</Declaration>
+			
+			
+			<Anchor>//api/name/authorizationCode</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/authorizationCode</TokenIdentifier>
+			<Abstract type="html">Card authorization code.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *authorizationCode</Declaration>
+			
+			
+			<Anchor>//api/name/authorizationCode</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/authorizationCode</TokenIdentifier>
+			<Abstract type="html">Card authorization code.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *authorizationCode</Declaration>
+			
+			
+			<Anchor>//api/name/authorizationCode</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setCardBrandIdentifier:</TokenIdentifier>
+			<Abstract type="html">Card brand identifier.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *cardBrandIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/cardBrandIdentifier</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/cardBrandIdentifier</TokenIdentifier>
+			<Abstract type="html">Card brand identifier.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *cardBrandIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/cardBrandIdentifier</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/cardBrandIdentifier</TokenIdentifier>
+			<Abstract type="html">Card brand identifier.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *cardBrandIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/cardBrandIdentifier</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/setCardBrandName:</TokenIdentifier>
+			<Abstract type="html">Card brand name.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *cardBrandName</Declaration>
+			
+			
+			<Anchor>//api/name/cardBrandName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PLVPaymentResultAdditionalData/cardBrandName</TokenIdentifier>
+			<Abstract type="html">Card brand name.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *cardBrandName</Declaration>
+			
+			
+			<Anchor>//api/name/cardBrandName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PLVPaymentResultAdditionalData/cardBrandName</TokenIdentifier>
+			<Abstract type="html">Card brand name.</Abstract>
+			<DeclaredIn>PLVPaymentResultAdditionalData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *cardBrandName</Declaration>
+			
+			
+			<Anchor>//api/name/cardBrandName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
