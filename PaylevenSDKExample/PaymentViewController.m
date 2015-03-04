@@ -38,6 +38,9 @@
 /** Receipt generator. */
 @property(nonatomic, strong) PLVReceiptGenerator *receiptGenerator;
 
+/** Location Manager */
+@property(nonatomic, strong) CLLocationManager* locationManager;
+
 /** Cancels the payment task and calls delegate with did-finish message. */
 - (IBAction)close:(id)sender;
 
@@ -72,6 +75,25 @@
     
     self.amountField.text = @"";
     [self updateCurrencyLabelWithCurrency:self.currency];
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    
+    self.locationManager.delegate = (id<CLLocationManagerDelegate>)self;
+    
+    NSUInteger code = [CLLocationManager authorizationStatus];
+    
+    if (code == kCLAuthorizationStatusNotDetermined && ([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)] || [self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)])) {
+        // choose one request according to your business.
+        if([[NSBundle mainBundle] objectForInfoDictionaryKey:@"NSLocationAlwaysUsageDescription"]){
+            [self.locationManager requestAlwaysAuthorization];
+        } else if([[NSBundle mainBundle] objectForInfoDictionaryKey:@"NSLocationWhenInUseUsageDescription"]) {
+            [self.locationManager  requestWhenInUseAuthorization];
+        } else {
+            NSLog(@"Info.plist does not contain NSLocationAlwaysUsageDescription or NSLocationWhenInUseUsageDescription");
+        }
+    }
+    
+    [self.locationManager startUpdatingLocation];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -169,8 +191,13 @@
     if (indexPath.section == 1 && indexPath.row == 0 && self.paymentTask == nil) {
         NSLocale *locale = [NSLocale currentLocale];
         NSDecimalNumber *amount = [NSDecimalNumber decimalNumberWithString:self.amountField.text locale:locale];
-        // TODO: use real coordinate.
-        CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(52.5243700, 13.4105300);
+
+        CLLocationCoordinate2D coordinate = self.locationManager.location.coordinate;
+            
+        if (!CLLocationCoordinate2DIsValid(coordinate)) {
+            NSAssert(Nil, @"Invalid Coordinate");
+        }
+        
         PLVPaymentRequest *request = [[PLVPaymentRequest alloc] initWithIdentifier:[self generateRandomString]
                                                                             amount:amount
                                                                           currency:self.currency
