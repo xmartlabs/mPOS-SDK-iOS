@@ -36,7 +36,7 @@ This project provides an iOS API to communicate with the payleven Chip & PIN car
 
   * `CFBundleDisplayName` with the display name for your app.
   * `UISupportedExternalAccessoryProtocols` with an array of just one value `com.adyen.bt1`.
-  * For iOS 8: `NSLocationWhenInUseUsageDescription` or `NSLocationAlwaysUsageDescription`,\n for iOS 7: `NSLocationUsageDescription` with the location usage description message for the users.
+  * For iOS 8: `NSLocationWhenInUseUsageDescription` or `NSLocationAlwaysUsageDescription`, for iOS 7: `NSLocationUsageDescription` with the location usage description message for the users.
 
 5. Import PaylevenSDK into your files:
 
