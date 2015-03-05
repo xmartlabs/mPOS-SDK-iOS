@@ -41,6 +41,9 @@
 /** Location Manager */
 @property(nonatomic, strong) CLLocationManager* locationManager;
 
+/** Flag for remove signature VC */
+@property(nonatomic) BOOL signingViewControllerPresent;
+
 /** Cancels the payment task and calls delegate with did-finish message. */
 - (IBAction)close:(id)sender;
 
@@ -79,6 +82,8 @@
     self.locationManager = [[CLLocationManager alloc] init];
     
     self.locationManager.delegate = (id<CLLocationManagerDelegate>)self;
+    
+    self.signingViewControllerPresent = FALSE;
     
     NSUInteger code = [CLLocationManager authorizationStatus];
     
@@ -155,6 +160,7 @@
     receiptViewController.didFinishBlock = ^{
         [self dismissViewControllerAnimated:YES completion:nil];
     };
+    
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 
@@ -234,20 +240,36 @@
     
     signatureConfirmationViewController.didFinishBlock = ^(BOOL confirmed) {
         completionHandler(confirmed, signature.CGImage);
-        [self dismissViewControllerAnimated:YES completion:nil];
+        [self dismissViewControllerAnimated:YES completion:^{
+            self.signingViewControllerPresent = FALSE;
+        }];
     };
     signatureConfirmationViewController.didCancelBlock = ^{
         [self dismissViewControllerAnimated:YES completion:^{
+            self.signingViewControllerPresent = FALSE;
             [self cancel:self];
         }];
     };
     
+    self.signingViewControllerPresent = TRUE;
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 
 - (void)paymentTaskDidFinish:(PLVPaymentTask *)paymentTask {
     assert([NSThread isMainThread]);
     [self.paymentActivityIndicator stopAnimating];
+    
+    if (self.signingViewControllerPresent) {
+        [self dismissViewControllerAnimated:NO completion:^{
+            self.signingViewControllerPresent = FALSE;
+            [self presentReceiptFor:paymentTask];
+        }];
+    } else {
+        [self presentReceiptFor:paymentTask];
+    }
+}
+
+- (void) presentReceiptFor:(PLVPaymentTask *)paymentTask {
     
     self.receiptGenerator = paymentTask.result.receiptGenerator;
     CGFloat scale = [UIScreen mainScreen].scale;
@@ -264,6 +286,7 @@
      }];
     
     self.paymentTask = nil;
+    
 }
 
 - (void)paymentTask:(PLVPaymentTask *)paymentTask didFailWithError:(NSError *)error {

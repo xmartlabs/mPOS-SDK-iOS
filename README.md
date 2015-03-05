@@ -1,21 +1,22 @@
+# payleven mPOS SDK
+
 [![CocoaPods](https://img.shields.io/badge/Licence-MIT-brightgreen.svg?style=flat-square)]()
 [![CocoaPods](https://img.shields.io/badge/Platform-iOS-yellow.svg?style=flat-square)]()
+[![CocoaPods](https://img.shields.io/badge/Requires-iOS%207+-blue.svg?style=flat-square)]()
 [![CocoaPods](https://img.shields.io/github/tag/Payleven/mPOS-SDK-iOS.svg?style=flat-square)]()
 [![CocoaPods](https://img.shields.io/badge/Made%20in-Berlin-red.svg?style=flat-square)]()
-
-# payleven mPOS SDK
 
 This project provides an iOS API to communicate with the payleven Chip & PIN card reader in order to accept debit and credit card payments. Learn more about the Chip & PIN card reader and payment options on one of payleven's regional [websites](https://payleven.com/).
 
 ### Prerequisites
 1. Register with [payleven](http://payleven.com) in order to get personal merchant credentials and a card reader.
-2. Get API key on payleven [developer portal](https://payleven.de/developers/).
+2. In order to receive an API key, please contact us by sending an email to developer@payleven.com.
 
 ### Installation
 
 ##### CocoaPods
 
-Coming soon...
+	Coming soon...
 
 ##### Manual Set-Up
 
@@ -41,9 +42,15 @@ Coming soon...
 
         #import <PaylevenSDK/PaylevenSDK.h>
 
+#### Bluetooth pairing
+Before proceeding with the integration and testing make sure you have paired the card reader in the bluetooth settings on your iOS device.
+ 1. Make sure the device is charged and turned on.
+ 2. Press '0' key on the card reader for 5 sec and make sure the card reader has entered the pairing mode (there will be a corresponding sign on the screen).
+ 3. Go to the bluetooth settings of your iOS device and turn on bluetooth.
+ 4. Select the discovered payleven card reader and follow the instructions on both devices to finish the pairing process.
 
-#### Getting Started    
-##### Authenticate your App
+#### Getting started    
+##### Authenticate your app
 Use API key received from payleven together with your payleven merchant account to authenticate your app. 
 Hint: Check out our Sample Demo to see how you can easily observe the Login State using KVO.
  ```c
@@ -62,7 +69,7 @@ Hint: Check out our Sample Demo to see how you can easily observe the Login Stat
     }];
  ```
   
-##### Select the Card Reader
+##### Select the card reader
 Once a `PLVPayleven` instance is created you need to select the card reader for your future payments.
 
  ```c
@@ -75,7 +82,7 @@ Once a `PLVPayleven` instance is created you need to select the card reader for 
 
  ```
 
-##### Prepare Device for Payment
+##### Prepare card reader for payment
 Prepare selected device for upcoming payment.  
 
  ```c
@@ -89,7 +96,7 @@ Prepare selected device for upcoming payment.
  ```
   
 ##### Start payment
-Initialize the actual payment request. For security purposes we must provide the user's current location.
+Initialize the actual payment request. For security purposes you must provide the user's current location in the PaymentReuest.
 
  ```c
  //Here we are using an arbitrary location. In your app you must provide the user's current location
