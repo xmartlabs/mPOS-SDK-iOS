@@ -166,4 +166,4 @@ Implement PLVPaymentTaskDelegate's methods to respond to payment events such as 
  ```
    
 #### Documentation
-[API Reference](https://github.com/payleven/mPOS-SDK-iOS)
+[API Reference](http://payleven.github.io/mPOS-SDK-iOS/Documentation/html/)
